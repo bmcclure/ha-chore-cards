@@ -5,35 +5,33 @@
   "image": "mcr.microsoft.com/devcontainers/typescript-node",
   "appPort": ["5000:5000", "9123:8123"],
   "postCreateCommand": "npm install",
-  "remoteUser": "root",
-  "runArgs": [
-    "-v",
-    "${env:HOME}${env:USERPROFILE}/.ssh:/tmp/.ssh" // This is added so you can push from inside the container
-  ],
+  "remoteUser": "node",
   "customizations": {
     "vscode": {
       "extensions": [
-		"github.vscode-pull-request-github",
-		"eamodio.gitlens",
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"bierner.lit-html",
-		"runem.lit-plugin",
-		"davidanson.vscode-markdownlint",
-		"redhat.vscode-yaml",
-		"ms-vscode.live-server",
-		"streetsidesoftware.code-spell-checker",
-		"EditorConfig.EditorConfig",
-		"github.vscode-github-actions"
-	],
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bierner.lit-html",
+        "runem.lit-plugin",
+        "davidanson.vscode-markdownlint",
+        "redhat.vscode-yaml",
+        "ms-vscode.live-server",
+        "streetsidesoftware.code-spell-checker",
+        "EditorConfig.EditorConfig",
+        "github.vscode-github-actions",
+        "christian-kohler.path-intellisense",
+        "yzhang.markdown-all-in-one"
+      ],
       "settings": {
         "files.eol": "\n",
         "editor.tabSize": 4,
         "terminal.integrated.defaultProfile.linux": "bash",
         "terminal.integrated.profiles.linux": {
-            "bash": {
-                "path": "/bin/bash"
-            }
+          "bash": {
+            "path": "/bin/bash"
+          }
         },
         "editor.formatOnPaste": false,
         "editor.formatOnSave": true,
