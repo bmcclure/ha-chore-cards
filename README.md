@@ -1,22 +1,22 @@
-# Boilerplate Card by [@iantrich](https://www.github.com/iantrich)
-
-A community driven boilerplate of best practices for Home Assistant Lovelace custom cards
+# Chore Cards for Home Assistant
 
 [![GitHub Release][releases-shield]][releases]
-[![License][license-shield]](LICENSE.md)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
-
-![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
+[![License][license-shield]](LICENSE)
+
+[![hacs][hacsbadge]][hacs]
+![Project Maintenance][maintenance-shield]
+[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-## Support
+Cards designed to be used with the [Chore Helper](https://github.com/bmcclure/ha-chore-helper) integration.
 
-Hey dude! Help me out for a couple of :beers: or a :coffee:!
-
-[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/zJtVxUAgH)
+- Display single chores
+- List, filter, and sort multiple chores
+- Mark chores as complete or reschedule them easily
+- Coming soon: Create and manage chores from the front-end
 
 ## Options
 
@@ -106,14 +106,19 @@ error Found incompatible module
 info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
 ```
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/boilerplate-card.svg?style=for-the-badge
-[commits]: https://github.com/custom-cards/boilerplate-card/commits/master
-[devcontainer]: https://code.visualstudio.com/docs/remote/containers
-[discord]: https://discord.gg/5e9yvq
+***
+
+[buymecoffee]: https://www.buymeacoffee.com/benmcclure
+[buymecoffeebadge]: https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=for-the-badge
+[commits-shield]: https://img.shields.io/github/commit-activity/y/bmcclure/ha-chore-cards.svg?style=for-the-badge
+[commits]: https://github.com/bmcclure/ha-chore-cards/commits/master
+[hacs]: https://github.com/custom-components/hacs
+[hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
+[discord]: https://discord.gg/Qa5fW2R
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
-[forum]: https://community.home-assistant.io/c/projects/frontend
-[license-shield]: https://img.shields.io/github/license/custom-cards/boilerplate-card.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/custom-cards/boilerplate-card.svg?style=for-the-badge
-[releases]: https://github.com/custom-cards/boilerplate-card/releases
+[forum]: https://community.home-assistant.io/
+[license-shield]: https://img.shields.io/github/license/custom-components/blueprint.svg?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/badge/maintainer-Ben%20McClure%20%40bmcclure-blue.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/bmcclure/ha-chore-cards.svg?style=for-the-badge
+[releases]: https://github.com/bmcclure/ha-chore-cards/releases
